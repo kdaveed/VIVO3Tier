@@ -1,0 +1,9 @@
+<Context crossContext="true" override="true">
+   <Environment
+        type="java.lang.String" 
+        name="solr/home"  
+        value="/Users/konkolydavid/ESE MSc/HiWi/vivo/vivo3Tier2/solr" override="true"/>
+
+   <!-- Disable persist sessions on shut down.-->
+   <Manager pathname="" />
+</Context>
