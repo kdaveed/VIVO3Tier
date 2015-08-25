@@ -1,0 +1,24 @@
+#Config
+deploy.properties
+
+vivo3Tier2/config
+vivo3Tier2/upgrade
+vivo3Tier2/solr
+vivo3Tier2/uploads
+vivo3Tier2/rdf
+vivo3Tier2/tdbModels
+
+#Build dir
+.build/
+
+#Release files
+vivo-rel-1.5.1
+vitro-data
+data
+vivo-rel-1.5.1.zip
+revisionInfo
+
+#Eclipse
+.classpath
+.project
+.settings
