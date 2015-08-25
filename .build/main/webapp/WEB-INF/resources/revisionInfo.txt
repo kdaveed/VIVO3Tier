@@ -1,4 +1,0 @@
-2015-08-25 11:36:47
-vitroCore ~ unknown ~ unknown
-nihvivo ~ unknown ~ unknown
-vivo ~ master branch ~ 3fc5bf7
