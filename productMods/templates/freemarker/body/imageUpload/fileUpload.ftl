@@ -12,14 +12,14 @@ ${stylesheets.add('<link rel="stylesheet" href="${urls.base}/css/uploadImages.cs
 <#assign i18n = i18n() >
 <#assign typesList = editConfiguration.offerTypesCreateNew />
 
-<form class="editForm" action="/vivo/uploadImages?action=${editConfiguration.pageData.fileAction}" enctype="multipart/form-data" method="post" role="form"/> 
-	<label>${i18n.upload_photo} <span>${i18n.photo_types}</span></label>
+<form class="editForm" action="/vivo/uploadFiles?action=${editConfiguration.pageData.fileAction}" enctype="multipart/form-data" method="post" role="form"/> 
+	<label>Upload ${editConfiguration.pageData.fileType} <span>${editConfiguration.pageData.extensions}</span></label>
     <input id="datafile" type="file" name="datafile" size="30" multiple/>    
     <input type="hidden" value="${editConfiguration.subjectUri}" name="entityUri" role="input" />  
     <input type="hidden" value="${editConfiguration.predicateUri}" name="predicateUri" role="input" />  
     <input type="hidden" name="domainUri" value="${editConfiguration.domainUri!}"/>
     <input type="hidden" name="rangeUri" value="${editConfiguration.rangeUri!}"/>
     <input type="hidden" name="action" value="individualUpload"  role="input" />     
-    <input class="submit" type="submit" value="${i18n.submit_upload}"/>
+    <input class="submit" type="submit" value="Upload"/>
 </form>          
 
