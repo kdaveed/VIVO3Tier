@@ -48,19 +48,12 @@
 					</#if>
                 <ul class="property-list" role="list" id="${property.localName}-${rangeClass}-List" displayLimit="${limit}">
                     <#-- data property -->
-                    <script>
-                    	console.log("${property.localName}");
-                    </script>
-                	<#if property.name == "hasImage" >
-						<#include "file-load-script.ftl"> 
-						<div>Kutya</div>
-					<#elseif property.type == "data">
+                    <#if property.type == "data">
                         <@p.dataPropertyList property editable />
                     <#-- object property -->
                     <#else>
                         <@p.objectProperty property editable /> 
                     </#if>
-                    <!--<img src="/vivo/file/n5347/thumbnail_P6250093.jpg" width="90" alt="White, Bob ">   -->
                 </ul>
                 
                 

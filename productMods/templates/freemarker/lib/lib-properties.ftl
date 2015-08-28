@@ -41,6 +41,7 @@
 
 </#function>
 
+
 <#-----------------------------------------------------------------------------
     Macros for generating property lists
 ------------------------------------------------------------------------------>
@@ -101,7 +102,6 @@ Assumes property is non-null. -->
 </#macro>
 
 <#macro objectPropertyList property editable statements=property.statements template=property.template>
-
     <#list statements as statement>
         <@propertyListItem property statement editable><#include "${template}"></@propertyListItem>
     </#list>

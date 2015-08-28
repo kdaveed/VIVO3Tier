@@ -34,7 +34,7 @@
 <#list image as img>
 	<div class="picsToEditContatiner" >
 		<div class="classForWhiteGap">
-			<div class = "picsToEdit" "role="region" style="background-image : url(/vivo${img.src})"></div>
+			<div class = "picsToEdit" role="region" style="background-image : url(/vivo${img.src})"></div>
 		</div>
 	</div>
 </#list>
