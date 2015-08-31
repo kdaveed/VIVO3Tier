@@ -60,6 +60,7 @@
     </#list> 
 </#macro>
 
+
 <#macro objectProperty property editable template=property.template>
     <#if property.collatedBySubclass> <#-- collated -->
         <@collatedObjectPropertyList property editable template />

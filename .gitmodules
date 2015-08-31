@@ -3,4 +3,4 @@
 	url = https://github.com/vivo-project/VIVO
 [submodule "vitro"]
 	path = vitro
-	url = https://github.com/kdaveed/Vitro
+	url = https://github.com/vivo-project/Vitro
